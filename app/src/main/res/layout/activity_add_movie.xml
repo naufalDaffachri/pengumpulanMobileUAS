@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/blue3"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txt_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Form Tambah Data!"
+        android:textSize="32sp"
+        android:textColor="@color/blue1"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/gantari_bold"
+        />
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Judul Film"
+        android:inputType="text"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/et_genre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Genre Film"
+        android:inputType="text"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/et_duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Durasi Film"
+        android:inputType="text"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/et_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jadwal Film"
+        android:inputType="text"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/et_cinema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lokasi Bioskop"
+        android:inputType="text"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/blue1"
+        android:fontFamily="@font/gantari_bold"/>
+
+</LinearLayout>

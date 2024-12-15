@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    android:backgroundTint="@color/blue3"
+    tools:context=".DashboardProfile">
+
+    <TextView
+        android:id="@+id/txt_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="32sp"
+        android:textColor="@color/blue1"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/gantari_bold"
+        />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/blue1"
+        android:textColor="#FFF"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:fontFamily="@font/gantari_bold"/>
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/blue1"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:fontFamily="@font/gantari_bold"/>
+</LinearLayout>
